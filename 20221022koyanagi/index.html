@@ -56,7 +56,16 @@
   </div>
   <div class="footer">
     <h2 class="contact_title">お問い合わせ</h2>
-    <form action="post" class="contact_form"></form>
+    <form action="test" class="contact_form" method="post">
+      <label for="company_name">会社名</label>
+      <input type="text" name="company_name" id="company_name">
+      <label for="name">お名前</label>
+      <input type="text" name="name" id="name">
+      <label for="address">メールアドレス</label>
+      <input type="text" name="address" id="address">
+      <textarea name="textarea" id="" cols="30" rows="10">お問い合わせ内容</textarea>
+      <input type="submit" value="お申し込み">
+    </form>
   </div>
 </body>
 </html>
